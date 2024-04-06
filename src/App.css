@@ -1,0 +1,27 @@
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center {
+  text-align: center;
+}
+
+button {
+  text-align: center;
+  background-color: #282c34;
+  color: white;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 5rem;
+  cursor: pointer;
+  margin: 10px;
+  font-family: Menlo, Monaco, Lucida Console, Courier New, monospace;
+  font-size: 2rem;
+}
+
+button:hover {
+  background-color: #484a4b;
+}
