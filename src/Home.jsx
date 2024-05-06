@@ -1,47 +1,32 @@
 import React from 'react';
-import '@fortawesome/fontawesome-free/css/all.css';
+import { BsFillMoonStarsFill } from 'react-icons/bs';
 
 class Home extends React.Component {
   render() {
     return (
-      <div className="container">
-        <head>
-          <title>Bijesh Shrestha</title>
-          <link rel="icon" href="/favicon.ico" />
-        </head>
-
-        <main>
-
-        
-          <h1 className="title">
-            Hi, I'm Bijesh Shrestha
-          </h1>
-
-          <div className="construction">
-            <i className="fas fa-tools fa-4x"></i> 
-          </div>
-          <h1 className="title">
-            The Site is Under Construction
-          </h1>
-
-          <p className="description">
-            Find me on social media:
-          </p>
-
-          <div className="grid">
-            <a href="https://github.com/Bijesh-Sth" className="card">
-              <i className="fab fa-github"></i>
-            </a>
-            <a href="https://www.linkedin.com/in/bijesh-sth/" className="card">
-              <i className="fab fa-linkedin"></i>
-            </a>
-            <a href="https://www.instagram.com/bjs_sth/" className="card">
-              <i className="fab fa-instagram"></i>
-            </a>
-          </div>
+      <>
+        <main className="px-10">
+          <section className="min-h-screen"> 
+            <nav className="py-10 mb-10 flex justify-between">
+              <h1 className="text-xl font-Roboto font-bold">Bijesh Shrestha</h1>
+              <ul className="flex justify-center items-center">
+                <li><BsFillMoonStarsFill className="text-2xl cursor-pointer"/></li>
+                <li><a href='#' className="bg-cyan-500 text-white font-xl px-4 py-2 ml-3 rounded-md">Resume</a></li>
+              </ul>
+            </nav>
+            <div>
+              <h1>
+                Bijesh Shrestha
+              </h1>
+              <h2>
+                Web Developer
+              </h2>
+            </div>
+          </section>
         </main>
-      </div>
-    );
+
+      </>    
+      );
   }
 }
 

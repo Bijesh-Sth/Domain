@@ -4,22 +4,10 @@ import './App.css';
 import Home from './Home';
 
 function App() {
-  const [showHome, setShowHome] = useState(false);
-
-  const handleClick = () => {
-    setShowHome(true);
-  };
-
-  return (
-    <div className="container">
-      <div className="center">
-        {!showHome ? (
-          <button onClick={handleClick}>Click me</button>
-        ) : (
-          <Home />
-        )}
-      </div>
-    </div>
+   return (
+    <>
+    <Home />
+    </>
   );
 }
 
